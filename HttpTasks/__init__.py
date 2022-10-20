@@ -10,9 +10,9 @@ import pymysql
 
 # Database connection parameters - update as needed
 DB_USER='derestify_admin'
-DB_PSWD='$0meStrongPass'
-DB_NAME='task_logger'
-DB_HOST='derestifydb.mysql.database.azure.com'
+DB_PSWD='password'
+DB_NAME='task'
+DB_HOST='derestifydb'
 
 db = pymysql.connect(host=DB_HOST, 
 					user=DB_USER, 
